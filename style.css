@@ -56,9 +56,10 @@ body{
     margin-top: 30px;
     margin-right: 25px;
     box-shadow: 10px 15px 40px black;
-    border: 5px solid black;
     border-radius: 30px;
     overflow: hidden;
+    
+   
     
     
 }
@@ -68,11 +69,12 @@ body{
     
 }
  
-#id1{
+.h2{
     text-align: center;
     font-size: 60px;
     color:wheat;
     margin-top: 20px;
+    
 }
  
 .flex2 h3{
@@ -105,6 +107,12 @@ body{
     margin-left: 10px;
     background-image: linear-gradient(indigo,white);
     padding:20px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,whitesmoke,orange);
+    border-image-slice: 1;
+    border-radius:20px;
+   
+  
 }
 .half-width3{
     width: 34%;
@@ -133,15 +141,23 @@ body{
     margin: 30px;
    
 }
+
+.hr1{
+    height:5px;
+    background-color:black;
+}
 /* .over-all-section1 end */
  
  .over-all-section2{
-    background-image: url(images/background3.jpg);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding:30px;
-    margin-top: 5px;
+    padding:50px;
+    padding-top: 10px;
+    border-radius: 20px;
+    
+  
     
     
 }
@@ -150,11 +166,85 @@ body{
     padding:100px;
     color:wheat;
     font-size:30px;
-    margin:30px;
-    margin-top:0;
- 
- 
+    padding-top:5px;
+    border-radius:20px;
 } 
 
+.another-flex1{
+    display: flex;
+    
+}
+.logo{
+    width:40%;
+}
+.list{
+    width:60%;
+}
+.list ul li{
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+}
 
 
+.another-flex2{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.card{
+    width:50%;
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px brown;
+    margin:10px;
+    border-left: 10px solid;
+}
+.card p{
+   text-align: center;
+   padding:40px;
+    
+}
+.card img{
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+.another-flex3{
+    display: flex;
+}
+.card2{
+    padding: 40px;
+    
+}
+#id3{
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+footer{
+    background-color: gray;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+    margin-top: 10px;
+}
+footer h2{
+    font-size: 30px ;
+    color:black;
+    text-align: center;
+    
+}
+form{
+    font-size: 20px;
+    padding: 40px;
+
+}
+button{
+    display:inline-block;
+    text-align: center;
+}
+#center{
+    text-align: center;
+    color:cornsilk;
+}
