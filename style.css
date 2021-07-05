@@ -1,4 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Crimson Text', serif;
+}
+.over-all-section{
+    background-image: url("images/background3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+}
+.flex1{
+    display:flex;
+    margin-left: 25px;
+    margin-right: 25px;
+   
  
+}
+.hello{
+    width:70%;
+    font-size: 150px;
+    text-align: center;
+    background-image: linear-gradient(Crimson, wheat);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+ 
+    
+}
+.div-class{
+    width:30%;
+    border: 1px solid slateblue;
+    border-radius: 50%;
+    margin-top: 30px;
+ 
+}
+.div-class img{
+    width: 100%;
+    height: 100%;
+}
+/* section1 end */
+ 
+.flex2{
+    display:flex;
+    
+}
+.half-width{
+    width:50%;
+    margin-left:25px;
+    margin-top: 30px;
+    margin-right: 25px;
+    box-shadow: 10px 15px 40px black;
+    border: 5px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    
+    
+}
+.half-width img{
+    width:100%;
+    height: 60%;
+    
+}
+ 
+#id1{
+    text-align: center;
+    font-size: 60px;
+    color:wheat;
+    margin-top: 20px;
+}
+ 
+.flex2 h3{
+    background-color: rgb(207, 144, 27);
+    color:whitesmoke;
+    padding:40px;
+    text-align: center;
+    font-size: 40px;
+    height: 40%;
+    padding-top: 15%;
+    
+}
+/*  section2 end*/
+ 
+.flex3{
+    display: flex;
+    margin-top:30px;
+    margin-left: 25px;
+    margin-right: 25px;
+ 
+    
+}
+.orange-color{
+    color:black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.half-width2{
+    width: 33%;
+    margin-left: 10px;
+    background-image: linear-gradient(indigo,white);
+    padding:20px;
+}
+.half-width3{
+    width: 34%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.half-width3 img{
+    width:100%;
+}
+ .flex3 h2{
+    color:whitesmoke;
+    font-size:50px ;
+}
+#id2{
+    color:orange;
+    font-size:50px;
+}
+/*section3 end  */
+ 
+.section4{
+    background-color: cornflowerblue;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    padding:100px;
+    margin: 30px;
+   
+}
+/* .over-all-section1 end */
+ 
+ .over-all-section2{
+    background-image: url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:30px;
+    margin-top: 5px;
+    
+    
+}
+.another-part{
+    background-color: violet;
+    padding:100px;
+    color:wheat;
+    font-size:30px;
+    margin:30px;
+    margin-top:0;
+ 
+ 
+} 
 
 
 
